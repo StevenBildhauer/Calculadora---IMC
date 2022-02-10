@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    background-color: rgb(47, 105, 105);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.container{
+    background:rgb(102, 102, 122);
+    width:45%;
+    height:28em;
+    align-items:center;
+    text-align:center;
+    justify-content:space-evenly;
+    box-shadow:0 0 60px rgb(43, 31, 31);
+    margin-left:31%;
+    margin-top:7%;
+}
+
+.entrada{
+    background:rgb(102, 102, 122);
+}
+
+label{
+    background:rgb(102, 102, 122);
+    font-size:23px;
+}
+
+input{
+    background:rgba(255, 245, 245, 0.226);
+    border-style:groove;
+    height:30px;
+    width:200px;
+}
+.title{
+    background:rgb(127, 127, 238);
+    height:93%;
+    width:100%;
+    padding:10px;
+}
+
+.calcular{
+    background:rgb(102, 102, 122);
+}
+
+#calcular{
+    background-color:rgb(31, 184, 138);
+    font-size:20px;
+    margin-top:20px;
+    width:170px;
+    height:40px;
+    font-style:oblique;
+    border-style:inset;
+    transition:1s;
+
+}
+
+#calcular:hover{
+    cursor:pointer;
+    color:white;
+    background-color:rgba(136, 63, 185, 0.445);
+}
+
+.resultado{
+    background-color:rgb(145, 127, 163);
+    width:60%;
+    height:100px;
+    margin-top:10px;
+    display:flex;
+    margin-left:22%;
+    border-style:ridge;
+    cursor:pointer;
+}
